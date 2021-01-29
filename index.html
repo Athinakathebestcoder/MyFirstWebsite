@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Toys House</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap"
+            rel="stylesheet">
+    </head>
+
+    <body>
+        <header class="header">
+            <!-- left box for logo -->
+            <div class="left">
+
+                <img src="1.png" alt="">
+                <div>Toys House</div>
+            </div>
+            <!-- mid box for navbar -->
+            <div class="mid">
+                <ul class="navbar">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="aboutUs.html">About Us</a></li>
+                    <li><a href="#">Toys</a></li>
+                    <li><a href="#">Stores</a></li>
+                </div>
+            </ul>
+            <!-- right box for other buttons -->
+            <div class="right"><button class="btn">Call Us</button>
+                <button class="btn">Email Us</button>
+
+            </div>
+
+            <style>
+            body {
+                font-family: 'Potta One', cursive;
+                margin: 0px;
+                padding: 0px;
+                background: url('gg.jpg');
+                background-size: 1580px;
+            }
+
+            .left {
+                display: inline-block;
+                /* border: 3px solid red; */
+                position: absolute;
+                line-height: 18px;
+                left: 34px;
+                top: 20px;
+
+            }
+
+            .left img {
+                width: 170px;
+            }
+
+            .left div {
+                text-align: center;
+                color: white;
+            }
+
+            .btn {
+                font-family: 'Potta One', cursive;
+                margin: 0px 9px;
+                background-color: rgb(218, 79, 79);
+                color: cornsilk;
+                padding: 4px 14px;
+                /* border: violet; */
+                font: size 20;
+                border-radius: 138px;
+                cursor: pointer;
+                align-items: center;
+            }
+
+            .btn:hover {
+                background-color: rgb(17, 17, 17)
+            }
+
+            .mid {
+                display: block;
+                width: 39%;
+                margin: 20px auto;
+                /* border: 3px solid rgb(32, 248, 12); */
+
+            }
+
+            .right {
+                display: inline-block;
+                position: absolute;
+                right: 34px;
+                top: 33px;
+                /* border: 3px solid rgb(229, 255, 0); */
+            }
+
+            .navbar {
+                display: inline-block;
+            }
+
+            .navbar li {
+                color: white;
+                display: inline-block;
+                font-size: 20px;
+            }
+
+            .navbar li a {
+                color: white;
+                text-decoration: none;
+                padding: 34px 23px;
+            }
+
+            .navbar li a:hover,
+            .navbar li a.active {
+                color:rgb(206, 84, 84);
+
+            }
+
+            .container {
+
+                border: 2px solid rgb(251, 251, 251);
+                margin: 106px 80px;
+                padding: 75px;
+                width: 30%;
+                border-radius: 39px;
+               color: rgb(255, 255, 255);
+            }
+            .form-group input{
+                font-family: 'Potta One', cursive;
+                text-align: center;
+                display: block;
+                width: 85%;
+                padding: 1px;
+                border: 2px solid black;
+                margin: 3px auto;
+                font-size: 25px;
+                border-radius: 138px;
+            }
+            .container button{
+                font-family: 'Potta One', cursive;
+                display: block;
+                width: 85%;
+                margin: 20px auto;
+            }
+        </style>
+            <div class="container">
+                <h2>Welcome To A Wonderous and an Exciting Place for Kids. Here
+You  can Find  any toy in the world so why wait Register Now !</h2>
+                <form action="noaction.php">
+                    <div class="form-group">
+                        <input type="email" name="" placeholder="Enter You Email"><br>
+                        <input type="password" name="" placeholder="Enter Your Password"><br>
+                        <button class="btn">Submit</button>
+                    </form></div>
+
+            </div>
+
+        </header>
+    </body>
+
+</html>
